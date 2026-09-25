@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science and Technology at **University of Science and Technology Beijing**. My research lies in computer vision and medical image analysis, with a focus on designing efficient architectures for biomedical imaging.
+I am a Ph.D. student at University of Science and Technology Beijing. My research lies in computer vision and medical image analysis.
 
 News
 ======
