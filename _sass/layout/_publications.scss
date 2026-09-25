@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------------
- * Publication list — "hollow circle bullet + title / authors / italic venue"
+ * Publication list — "solid dot bullet + title / authors / italic venue"
  * ------------------------------------------------------------------------ */
 
 .pub-list {
@@ -11,17 +11,16 @@
   padding-left: 1.9em;
   margin-bottom: 1.35em;
 
-  /* hollow circle bullet */
+  /* solid dot bullet */
   &::before {
     content: "";
     position: absolute;
     left: 0.3em;
-    top: 0.6em;
-    width: 0.6em;
-    height: 0.6em;
-    border: 0.13em solid #b8635a;
+    top: 0.62em;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: var(--global-text-color, #2f3438);
     border-radius: 50%;
-    box-sizing: border-box;
   }
 }
 
@@ -38,8 +37,7 @@
 
     &:hover,
     &:focus {
-      color: #b8635a;
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 }
