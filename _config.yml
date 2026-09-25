@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Chunlin Yu"
 title_separator          : "-"
 name                     : &name "Chunlin Yu"
-description              : &description "Chunlin Yu is a Ph.D. student at Beihang University working on multimodal representation learning, medical image segmentation, and efficient vision models."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Chunlin Yu is a Ph.D. student at University of Science and Technology Beijing working on multimodal representation learning, medical image segmentation, and efficient vision models."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://ukelin.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Chunlin Yu"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student in Computer Science at Beihang University. Working on multimodal representation learning, medical image segmentation, and efficient vision models."
+  bio              : "Ph.D. student in Computer Science at University of Science and Technology Beijing. Working on multimodal representation learning, medical image segmentation, and efficient vision models."
   location         : "Beijing, China"
-  employer         : "Beihang University"
+  employer         : "USTB"
   uri              : # URL
   email            : "yuchunlin627@126.com" 
 

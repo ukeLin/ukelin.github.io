@@ -5,30 +5,22 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div class="wordwrap">All listed papers are <b>first-author</b> publications. See my <a href="https://scholar.google.com/">Google Scholar</a> profile for the latest.</div>
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<div class="pub-list">
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for post in sorted_pubs %}
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    </div>
+    <div class="pub-authors">
+      {{ post.authors | replace: "Chunlin Yu", "<strong>Chunlin Yu</strong>" | replace: "<strong><strong>Chunlin Yu</strong></strong>", "<strong>Chunlin Yu</strong>" }}
+    </div>
+    <div class="pub-venue">
+      <em>{{ post.venue }}</em>, {{ post.year }}.
+      {% if post.volume %} <span class="pub-vol">{{ post.volume }}.</span>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
