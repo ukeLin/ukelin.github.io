@@ -7,10 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science and Technology at **University of Science and Technology Beijing**. My research lies in medical image analysis and computer vision, with a focus on designing efficient architectures for biomedical imaging.
+I am a Ph.D. student in Computer Science and Technology at **University of Science and Technology Beijing**. My research lies in computer vision and medical image analysis, with a focus on designing efficient architectures for biomedical imaging.
 
 Research Interests
 ======
-- Multimodal representation learning
-- Medical image segmentation
-- Efficient vision models (RWKV / Mamba / linear attention)
+- Computer Vision
+- Medical Image Analysis
+
+Publications
+======
+<div class="pub-list">
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for post in sorted_pubs %}
+  <div class="pub-item">
+    <div class="pub-title">
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    </div>
+    <div class="pub-authors">
+      {{ post.authors | replace: "Chunlin Yu", "<strong>Chunlin Yu</strong>" | replace: "<strong><strong>Chunlin Yu</strong></strong>", "<strong>Chunlin Yu</strong>" }}
+    </div>
+    <div class="pub-venue">
+      <em>{{ post.venue }}</em>, {{ post.year }}.
+    </div>
+  </div>
+{% endfor %}
+</div>
