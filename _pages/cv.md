@@ -11,54 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science and Technology**, Beihang University, 2025.09 – present
+* **M.S. in Computer Science and Technology**, Liaoning Technical University, 2022.09 – 2025.06
+* **B.S. in Computer Science and Technology**, Liaoning Technical University, 2018.09 – 2022.06
+  * Undergraduate GPA: 3.95 / 4.5
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Intern, Medical Image Algorithms** — Beijing Institute for Brain Research, 2025.12 – 2026.03
+  * Conducted algorithm research for large-scale, high-resolution cardiac images, including image registration, stitching, and fusion.
+  * Led the development, implementation, and optimization of core image stitching algorithms, improving spatial alignment and fusion across high-resolution images.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Honors and Awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* National Scholarship for Graduate Students, 2024
+* Third Prize, 20th "Huawei Cup" China Post-Graduate Mathematical Contest in Modeling, 2022
+* Third Prize, Blue Bridge Cup National Software Competition
+* First-Class Academic Scholarship, 2022; First-Class and Second-Class Scholarship, 2023 (ranked 1/40 in major)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
