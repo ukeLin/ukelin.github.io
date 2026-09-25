@@ -9,6 +9,11 @@ redirect_from:
 
 I am a Ph.D. student in Computer Science and Technology at **University of Science and Technology Beijing**. My research lies in computer vision and medical image analysis, with a focus on designing efficient architectures for biomedical imaging.
 
+News
+======
+- **[08/2026]** One paper accepted by **TNNLS**.
+- **[08/2026]** One paper accepted by **ESWA**.
+
 Research Interests
 ======
 - Computer Vision
