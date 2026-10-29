@@ -23,6 +23,13 @@ redirect_from:
   <div class="home-news__item"><time datetime="2026-08">Aug 2026</time><span>One paper accepted by <strong>ESWA</strong>.</span></div>
 </div>
 
+## Honors and Awards
+
+<div class="home-news">
+  <div class="home-news__item"><time datetime="2026">2026</time><span>Inaugural cohort, China Association for Science and Technology (CAST) Youth Talent Support Program for Doctoral Students</span></div>
+  <div class="home-news__item"><time datetime="2026">2026</time><span>National Scholarship</span></div>
+</div>
+
 ## Publications
 <div class="pub-list">
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
