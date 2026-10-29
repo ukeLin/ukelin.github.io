@@ -1,5 +1,6 @@
 ---
 title: "Topology-aware Linear Attention with Deformable Receptance for Coronary Artery Segmentation"
+impact_factor_2025: "9.4"
 collection: publications
 category: journals
 permalink: /publication/snake-rwkv-coronary-artery

@@ -7,20 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at University of Science and Technology Beijing. My research lies in computer vision and medical image analysis.
+<div class="home-intro">
+  <p>I am a Ph.D. student at the University of Science and Technology Beijing. My research interests include computer vision, medical image analysis, and foundation models.</p>
+  <div class="home-interests" aria-label="Research interests">
+    <span>Computer Vision</span><span>Medical Image Analysis</span><span>Foundation Models</span>
+  </div>
+</div>
 
-News
-======
-- **[08/2026]** One paper accepted by **TNNLS**.
-- **[08/2026]** One paper accepted by **ESWA**.
+## News
 
-Research Interests
-======
-- Computer Vision
-- Medical Image Analysis
+<div class="home-news">
+  <div class="home-news__item"><time datetime="2026-10">Oct 2026</time><span>Selected for the inaugural cohort of the China Association for Science and Technology (CAST) Youth Talent Support Program for Doctoral Students.</span></div>
+  <div class="home-news__item"><time datetime="2026-10">Oct 2026</time><span>Received the National Scholarship.</span></div>
+  <div class="home-news__item"><time datetime="2026-08">Aug 2026</time><span>One paper accepted by <strong>TNNLS</strong>.</span></div>
+  <div class="home-news__item"><time datetime="2026-08">Aug 2026</time><span>One paper accepted by <strong>ESWA</strong>.</span></div>
+</div>
 
-Publications
-======
+## Publications
 <div class="pub-list">
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 {% for post in sorted_pubs %}
@@ -33,6 +36,7 @@ Publications
     </div>
     <div class="pub-venue">
       <em>{{ post.venue }}</em>, {{ post.year }}.
+      {% if post.impact_factor_2025 %}<span class="pub-metrics">IF {{ post.impact_factor_2025 }}</span>{% endif %}
     </div>
   </div>
 {% endfor %}

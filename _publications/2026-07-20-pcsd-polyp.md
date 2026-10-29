@@ -1,5 +1,6 @@
 ---
 title: "Progressive Contour-Consistent Self-Distillation for Polyp Segmentation"
+impact_factor_2025: "6.7"
 collection: publications
 category: journals
 permalink: /publication/pcsd-polyp-segmentation
